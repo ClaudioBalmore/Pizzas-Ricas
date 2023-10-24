@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pastas Ricas</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Italiana&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header id="home">
+            <div class="logo">
+                <h1>Pastas Ricas</h1>
+                <p>Estas Pastas son Ricas</p>
+            </div>
+            <section>
+                <a href="#menu"><p>Menu</p></a>
+                <a href="#salones"><p>Salones</p></a>
+                <a href="#reservas"><p>Reservas</p></a>
+            </section>
+        </header>
+        <hr><h2 id="menu">Menu</h2><hr>
+        <section class="menu">
+            <article>
+                <img src="img/lasana.jpg" alt="lasana">
+                <h3>Lasaña Rica</h3>
+                <p>Lasaña Rica Boloñesa</p>
+                <span>$12000</span>
+            </article>
+            <article>
+                <img src="img/bolonesa.jpg" alt="bolonesa">
+                <h3>Bolognesa Rica</h3>
+                <p>Especialidad de la Casa</p>
+                <span>$10000</span>
+            </article>
+            <article>
+                <img src="img/pesto.jpg" alt="pesto">
+                <h3>Pesto Rico</h3>
+                <p>Pesto bonissimo</p>
+                <span>$10000</span>
+            </article>  
+            <article>
+                <img src="img/pizza.jpg" alt="pizza">
+                <h3>Pizza Española Rica</h3>
+                <p>Pizza rica pero no italiana</p>
+                <span>$8000</span>
+            </article>
+        </section>
+        <hr><h2 id="salones">Salones de Eventos</h2><hr>
+        <section class="salones">
+            <article>
+                <img src="img/comedor.jpg" alt="comedor">
+                <h3>Comedor Principal</h3>
+                <p>Ambiente perfecto para compartir</p>
+            </article>
+            <article>
+                <img src="img/terraza.jpg" alt="terraza">
+                <h3>Terraza Exterior</h3>
+                <p>Sector romantico perfecto para una cita</p>
+            </article>
+            <article>
+                <img src="img/privado.jpg" alt="privado">
+                <h3>Salon Privado</h3>
+                <p>Ideal para celebraciones intimas y reuniones de trabajo</p>
+            </article>
+        </section>
+        <hr><h2 id="reservas">Reservas</h2><hr>
+        <section class="reservas">
+            <p>Para programar una reserva rellene los siguientes campos:</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input id="nombre" type="text" placeholder="Freddy" />
+                <label for="apellido">Apellido:</label>
+                <input id="apellido" type="text" placeholder="Turbina" />
+                <label for="telefono">Telefono:</label>
+                <input id="telefono" type="tel" placeholder="+56 9 1234 5678" />
+                <label for="comensales">Comensales:</label>
+                <input id="comensales" type="number" placeholder="11" />
+                <label for="fecha">Fecha:</label>
+                <input id="fecha" type="date" placeholder="dd/mm/aaaa" />
+                <label for="hora">Hora:</label>
+                <input id="hora" type="time" placeholder="22:00" />
+                <p>Salones de Eventos:</p>
+                <ul>
+                    <li>
+                        <input type="radio" name="salon" value="comedor">
+                        <label>Comedor Principal</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="salon" value="terraza">
+                        <label>Terraza Exterior</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="salon" value="privado">
+                        <label>Salon Privado</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="salon" value="ninguna">
+                        <label>Sin reserva</label>
+                    </li>
+                </ul>
+                <p>Ocasion Especial:</p>
+                <ul>
+                    <li>
+                        <input type="radio" name="ocasion" value="cumple">
+                        <label>Cumpleaños</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ocasion" value="bodas">
+                        <label>Bodas</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ocasion" value="aniversario">
+                        <label>Aniversario</label>
+                    </li>
+                    <li><input type="radio" name="ocasion" value="noOcasion">
+                    <label>Sin ocasion especial</label>
+                    </li>
+                </ul>
+            </form>
+            <button>Reservar</button>
+        </section>
+        <footer>
+            <section>
+                <a href="#home">Ir al Comienzo</a>
+            </section>
+            <ul>
+                <p>Contacto</p>
+                <li>P. Sherman Calle Wallaby 42, Sydney</li>
+                <li><a href="tel:+56912345678" >+56 9 1234 5678</a></li>
+                <li><a href="mailto:pastasricas@bienricas.cl">pastasricas@bienricas.cl</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

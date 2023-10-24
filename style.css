@@ -1,0 +1,173 @@
+html {
+  font-family: 'Bitter', serif;
+  min-width: 520px;
+}
+
+body {
+  margin: 0;
+  background-color: #efefef;
+}
+
+img {
+  height: 12rem;
+  width: 8rem;
+}
+
+header {
+  background-color: rgb(174, 51, 29);
+  padding: 2rem 2rem;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  min-width: 520px;
+}
+
+header h1, header p {
+  margin: 0;
+  width: 15rem;
+}
+
+header section {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 298px;
+}
+
+header section p {
+  margin: 0 0.3rem;
+  padding: 0.3rem;
+  background-color: rgb(209, 62, 36);
+  border-radius: 5px;
+  width: 5rem;
+  height: 1.2rem;
+  text-align: center;
+}
+
+header section a {
+  text-decoration: none;
+  color: white;
+}
+
+hr {
+  height: 2px;
+  background-color: rgba(41, 41, 41, 0.584);
+  border: none;
+  margin: 0.5rem 1rem;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  color: darkred;
+}
+
+.menu, 
+.salones {
+  margin: 0 1rem;
+  display: grid;
+  grid-template-rows: 12rem;
+  grid-template-columns: repeat(auto-fit, 25rem);
+  justify-content: space-around;
+  align-items: space-around;
+  grid-gap: 1rem;
+}
+
+section article {
+  transition: box-shadow 0.3s ease;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+  height: 12rem;
+  width: 25rem;
+  cursor: pointer;
+}
+
+section article:hover {
+  box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+section article h3 {
+  position: absolute;
+  top: 0;
+  left: 9rem;
+}
+
+section article p {
+  position: absolute;
+  top: 2rem;
+  left: 9rem;
+  font-size: 0.8rem;
+}
+
+section article span {
+  position: absolute;
+  font-size: 1.6rem;
+  right: 1rem;
+  bottom: 2rem;
+  color: darkred;
+}
+
+.reservas {
+  background-color: white;
+  width: 25rem;
+  margin: 0 auto 1rem auto;
+  border-radius: 5px;
+  padding: 0.75rem;
+}
+
+.reservas p {
+  margin: 0;
+}
+
+.reservas form {
+  display: grid;
+  grid-template-columns: 7rem 16rem;
+  grid-template-rows: 2.2rem 2.2rem 2.2rem 2.2rem 2.2rem 2.2rem 6rem 6rem;
+  grid-gap: 0.3rem;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.reservas button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  width: 5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: darkred;
+  color: white;
+  font-family: 'Bitter', serif;
+}
+
+footer {
+  background-color: rgba(33, 33, 33, 0.792);
+  color: white;
+  padding: 2rem 2rem;
+}
+
+footer ul, footer p {
+  margin: 0;
+}
+
+footer a {
+  transition: color 0.3s ease;
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: cornflowerblue;
+}
+
+footer section {
+  float: right;
+}
